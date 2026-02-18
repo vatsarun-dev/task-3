@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+/* page1 */
+
+section .page1{
+    height:100%;
+    width:100%;
+}
+
+.page1 .center1{
+    height:500px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.page1 .center1 p{
+    font-size:5rem;
+}
+.page1 .center1 button{
+    font-size:1.2rem;
+    padding:10px 20px;
+    background-color: aquamarine;
+    color:black;
+    font-weight: 500;
+    margin:20px;
+}
+
+/* page2 */
+
+.page1 .sqr{
+    height:200px;
+    width:200px;
+    background-color: tan;
+}
+
+/* page->3 */
+
+.page1 .center1 .sqr #p1{
+    font-size: 1.1rem;
+    text-align: center;
+    margin:10px;
+}
+.page1 .center1 #box{
+    background-color: lightcoral;
+}
+
+
+/* page->4 */
+.page1 .center1 #box1{
+    background-color: crimson;
+}
+
+/* page->6 */
+.page1 .center2{
+     height:732px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.page1 .center2 button{
+    font-size:1.2rem;
+    padding:10px 20px;
+    background-color: aquamarine;
+    color:black;
+    font-weight: 500;
+    margin:20px;
+}
+
+/* page->7 */
+.page1 .center1 #input{
+    height:40px;
+    width:400px;
+    padding:0px 10px;
+    font-weight: 800;
+
+}
+
+.page1 .center1 #p{
+    color:white;
+    font-size: 2rem;
+}
+
+/* task->8 */
+
+.page1 .center1 .bxn{
+    height:200px;
+    width:200px;
+    background-color: lawngreen;
+}
+
+/* task->9 */
+
+.page1 .center1 #p3{
+    font-size:2rem;
+    color:white;
+    font-weight: 500;
+}
+
+.page1 .center1 .red{
+    height:100px;
+    width:100px;
+    border:1px solid white;
+    border-radius:50%;
+    
+}
+
+.page1 .center1 .light{
+    display:flex;
+    justify-content: space-around;
+    gap:30px;
+}
